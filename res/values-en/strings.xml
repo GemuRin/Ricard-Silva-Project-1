@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">1º Exercise</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="texto1">Choose option</string>
+    <string name="botao1">Color</string>
+    <string name="botao2">Enter cities</string>
+    <string name="botao3">Cities Map</string>
+    <string name="botao4">Date</string>
+    <string name="botao5">Make a Call</string>
+    <string name="botao6">SMS</string>
+    <string name="botao7">Delevoper</string>
+    <string name="texto2">Still</string>
+    <string name="texto3">days</string>
+    <string name="textocor1">Choose a color</string>
+    <string name="textocor2">Background</string>
+    <string name="textocor3">Button</string>
+    <string name="textocor4">#00FF00</string>
+    <string name="textocor5">#0000FF</string>
+    <string name="textcor6">#FFFF00</string>
+    <string name="textocor7">#FF0000</string>
+    <string name="textocor8">#FF00FF</string>
+    <string name="textocor9">#1AFF87</string>
+    <string name="botaocidade1">Save City</string>
+    <string name="cidadetexto1">Click on a city</string>
+    <string name="botaodata1">Save information</string>
+    <string name="botaosms">Send Message</string>
+    <string name="textocriador1">Developer data:</string>
+    <string name="textocriador2">Name:</string>
+    <string name="textocriador3">Teacher</string>
+    <string name="textocriador4">Telephone:</string>
+    <string name="textocriador5">210 402 403</string>
+    <string name="textocriador6">City:</string>
+    <string name="textocriador7">Lisboa</string>
+    <string name="texto4">for your</string>
+    <string name="texto5">º   birthday!</string><string name="smsenviada">Sms sent to:</string><string name="selecionanumero">Select number</string><string name="redemovel">Unavailable cell connection.</string>
+
+</resources>

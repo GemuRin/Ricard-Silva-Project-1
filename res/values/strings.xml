@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">1º Caso Prático</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="texto1">Escolhe uma Opção</string>
+    <string name="botao1">Cor</string>
+    <string name="botao2">Cidades introdução</string>
+    <string name="botao3">Cidades Mapa</string>
+    <string name="botao4">Data</string>
+    <string name="botao5">Chamar</string>
+    <string name="botao6">SMS</string>
+    <string name="botao7">Criador</string>
+    <string name="texto2">Faltam</string>
+    <string name="texto3">dias</string>
+    <string name="textocor1">Escolhe uma cor</string>
+    <string name="textocor2">Fundo</string>
+    <string name="textocor3">Botão</string>
+    <string name="textocor4">#00FF00</string>
+    <string name="textocor5">#0000FF</string>
+    <string name="textocor6">#FFFF00</string>
+    <string name="textocor7">#FF0000</string>
+    <string name="textocor8">#FF00FF</string>
+    <string name="textocor9">#1AFF87</string>
+    <string name="botaocidade1">Guardar Cidade</string>
+    <string name="cidadetexto1">Clica numa cidade</string>
+    <string name="botaodata1">Guardar informação</string>
+    <string name="botaosms">Enviar Mensagem</string>
+    <string name="textocriador1">Dados do Criador:</string>
+    <string name="textocriador2">Nome:</string>
+    <string name="textocriador3">Tutor</string>
+    <string name="textocriador4">Telefone:</string>
+    <string name="textocriador5">210 402 403</string>
+    <string name="textocriador6">Localidade:</string>
+    <string name="textocriador7">Lisboa</string>
+    <string name="texto4">para o teu</string>
+    <string name="texto5">º   aniversário!</string>
+    
+    <string name="selecionanumero">Seleciona número</string>
+    <string name="redemovel">Rede móvel não disponível.</string><string name="smsenviada">Sms enviada para:</string>
+
+</resources>

@@ -1,0 +1,46 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="GreenTheme" parent="AppTheme">
+    <item name="android:background">#00FF00</item>
+    </style>
+    <style name="BlueTheme" parent="AppTheme">
+    <item name="android:background">#0000FF</item>
+    </style>
+    <style name="YellowTheme" parent="AppTheme">
+    <item name="android:background">#FFFF00</item>
+    </style>
+    <style name="RedTheme" parent="AppTheme">
+    <item name="android:background">#FF0000</item>
+    </style>
+    <style name="PinkTheme" parent="AppTheme">
+    <item name="android:background">#FF00FF</item>
+    </style>
+    <style name="LightGreenTheme" parent="AppTheme">
+    <item name="android:background">#1AFF87</item>
+    </style>
+    <color name="blue">#0000FF</color>
+    <color name="green">#00FF00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="red" >#FF0000</color>
+    <color name="pink">#FF00FF</color>
+    <color name="lightgreen" >#1AFF87</color>
+    <color name="grey">#B0B0B0</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#080808</color>
+</resources>

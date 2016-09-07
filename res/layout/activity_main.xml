@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginBottom="158dp"
+        android:layout_marginTop="26dp"
+        android:layout_toRightOf="@+id/linearLayout1"
+        android:src="@drawable/download" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:text="@string/texto2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:text="@string/texto4"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/texto1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:text="@string/botao1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.28"
+            android:text="@string/botao2" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.28"
+            android:text="@string/botao3" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/botao4" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/botao5" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/botao6" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/botao7" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_toRightOf="@+id/textView4"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_toRightOf="@+id/textView7"
+        android:text="@string/texto5"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_toRightOf="@+id/textView2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
+        android:layout_toRightOf="@+id/textView6"
+        android:text="@string/texto3"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
